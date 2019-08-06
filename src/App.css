@@ -2,3 +2,18 @@
   width: 100%;
   height: auto;
 }
+
+.row  {
+  display: flex;
+  
+  
+}
+.card {
+  display: inline-block;
+  flex-grow: 1;
+	width: 33%;
+  margin: 30px;
+  
+  text-align: center;
+}
+

@@ -8,14 +8,14 @@ function App() {
       <img src={avengersendgame} className="avengersendgamecover" alt="avengers end game movie cover" />
       <div className="container">
         <ul className="row">
-          <li className="card" id="1"><h1>Black Mirror</h1></li>
-          <li className="card" id="2"><h1>Breaking Bad</h1></li>
-          <li className="card" id="3"><h1>Death Note</h1></li>
+          <li className="card"><h1>Black Mirror</h1></li>
+          <li className="card"><h1>Breaking Bad</h1></li>
+          <li className="card"><h1>Death Note</h1></li>
         </ul>
         <ul className="row">
-          <li className="card" id="1"><h1>Game of Thrones</h1></li>
-          <li className="card" id="2"><h1>The Walking Dead</h1></li>
-          <li className="card" id="3"><h1>The Wire</h1></li>
+          <li className="card"><h1>Game of Thrones</h1></li>
+          <li className="card"><h1>The Walking Dead</h1></li>
+          <li className="card"><h1>The Wire</h1></li>
         </ul></div>
 
     </div>

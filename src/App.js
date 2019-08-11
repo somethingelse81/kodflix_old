@@ -1,4 +1,5 @@
 import React from "react";
+import TvShow from "./TvShow";
 import blackmirror from "./blackmirror.jpg";
 import avengersendgame from "./avengersendgame.jpeg";
 import breakingbad from "./breakingbad.jpg";
@@ -17,28 +18,40 @@ function App() {
         alt="avengers end game movie cover"
       />
       <div className="container">
-        <ul className="row">
-          <li className="card">
-            <img src={blackmirror} alt="Black Mirror TV show cover" />
-          </li>
-          <li className="card">
-            <img src={breakingbad} alt="Breaking Bad show cover" />
-          </li>
-          <li className="card">
-            <img src={deathnote} alt="Death Note show cover" />
-          </li>
-        </ul>
-        <ul className="row">
-          <li className="card">
-            <img src={got} alt="Game Of Thrones show cover" />
-          </li>
-          <li className="card">
-            <img src={thewalkingdead} alt="The Walking Dead show cover" />
-          </li>
-          <li className="card">
-            <img src={thewire} alt="The Wire show cover" />
-          </li>
-        </ul>
+        <div className="row">
+          <TvShow
+            movieTitle={`Black Mirror`}
+            img={blackmirror}
+            alt={`Black Mirror TV show cover`}
+          />
+          <TvShow
+            movieTitle={`breakingbad`}
+            img={breakingbad}
+            alt={`Breaking Bad TV show cover`}
+          />
+          <TvShow
+            movieTitle={`deathnote`}
+            img={deathnote}
+            alt={`Death Note TV show Cover`}
+          />
+        </div>
+        <div className="row">
+          <TvShow
+            movieTitle={`Game Of Thrones`}
+            img={got}
+            alt={`Game Of Thrones TV show cover`}
+          />
+          <TvShow
+            movieTitle={`The Walking Dead`}
+            img={thewalkingdead}
+            alt={`The Walking Dead TV show cover`}
+          />
+          <TvShow
+            movieTitle={`The Wire`}
+            img={thewire}
+            alt={`The Wire TV show cover`}
+          />
+        </div>
       </div>
     </div>
   );

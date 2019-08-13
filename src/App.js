@@ -12,7 +12,7 @@ function App() {
         
         <Route exact path="/" component={HeaderCover} />
         <Route exact path="/" component={Gallery} />
-        <Route exact path="/details" component={Details} />
+        <Route exact path="/:details" component={Details} />
       </div>
     </Router>
   );

@@ -22,34 +22,29 @@ function App() {
           <TvShow
             movieTitle={`Black Mirror`}
             img={blackmirror}
-            alt={`Black Mirror TV show cover`}
           />
           <TvShow
-            movieTitle={`breakingbad`}
+            movieTitle={`Breaking Bad`}
             img={breakingbad}
-            alt={`Breaking Bad TV show cover`}
+            
           />
           <TvShow
-            movieTitle={`deathnote`}
+            movieTitle={`Death Note`}
             img={deathnote}
-            alt={`Death Note TV show Cover`}
           />
         </div>
         <div className="row">
           <TvShow
             movieTitle={`Game Of Thrones`}
             img={got}
-            alt={`Game Of Thrones TV show cover`}
           />
           <TvShow
             movieTitle={`The Walking Dead`}
             img={thewalkingdead}
-            alt={`The Walking Dead TV show cover`}
           />
           <TvShow
             movieTitle={`The Wire`}
             img={thewire}
-            alt={`The Wire TV show cover`}
           />
         </div>
       </div>
